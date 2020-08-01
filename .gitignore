@@ -1,0 +1,9 @@
+# Dependency directory
+node_modules
+*/**/node_modules
+*/**/package-lock.json
+
+#Macos
+.DS_Store
+
+.env
