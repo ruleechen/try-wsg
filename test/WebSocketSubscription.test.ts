@@ -6,6 +6,7 @@ import RingCentralExtension from "@rc-ex/rcsdk";
 import WebSocketExtension from "@rc-ex/ws";
 
 require("dotenv").config();
+jest.setTimeout(60 * 1000);
 
 describe("extensions", () => {
   test("RingCentral Extension + WebSocket Extension", async () => {
