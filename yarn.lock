@@ -468,28 +468,28 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@rc-ex/core@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@rc-ex/core/-/core-0.4.2.tgz#fd7403361ef803da30cfc9af53afa81c031580a3"
-  integrity sha512-K8qDAsVWROjiAQe9eTR5MVw7PuT2LFpYtSxXRNcs2EdKEqCjJpb+kAp1H8LtVktrF1UwlNiinYQsHYfc9XNdmw==
+"@rc-ex/core@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@rc-ex/core/-/core-0.5.4.tgz#d8bd946ac795442f4666ba5afd12c3e2bf9e91e3"
+  integrity sha512-LtjhN0cKbrl3pQVUdk1TrLDeEgkXsUVVhap/3OMfvDTxod/Hu6z4v16SZvPr2px8fw5q9sQPO8iczxAUNRH0wQ==
   dependencies:
-    "@types/qs" "^6.9.3"
-    axios "^0.19.2"
+    "@types/qs" "^6.9.4"
+    axios "^0.20.0"
     form-data "^3.0.0"
     qs "^6.9.4"
 
-"@rc-ex/rcsdk@^0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@rc-ex/rcsdk/-/rcsdk-0.4.5.tgz#283f73573920cfbae4b9c4bd4e1950fc40afd2be"
-  integrity sha512-jDOe7HCVnAoUcarE2dcdGR61gbvzhrc/zxKtx1adwJ6O05zTpcdgk0nbquJWe3xCCNg6u1jRF3nwx4a2Tq9IJw==
+"@rc-ex/rcsdk@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@rc-ex/rcsdk/-/rcsdk-0.5.4.tgz#a4e1b49c952ffe62e91017d7771fc0f26c1e6ea8"
+  integrity sha512-tK+dde3ADMbY9ky8VzhsPgIBBbHUtDRagxT1PtnaN0jP0Bp5zNppOgd3crZAFE4ioJGgydoPv50DhVDuJ1sEaQ==
 
-"@rc-ex/ws@^0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@rc-ex/ws/-/ws-0.4.5.tgz#49729d031c0392c30dc9a5adb2d664631941fdd3"
-  integrity sha512-Q5No7V5NbpgWQ1f17/d1xabUzbcmiC1hSH3/R5a3X9Pnytdoqds4OpCkq9ybqKu8Y2e06N9oZKuR200w6MyZOA==
+"@rc-ex/ws@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@rc-ex/ws/-/ws-0.5.4.tgz#58229761a2ec1ebcaf3c3356cfee817ea8ed8c25"
+  integrity sha512-2cwz4rAvJs3iqMH7nLEWn2r77At6L3Q8Q1MBzdNVDG4bvBtVGPQzCI1jZIxxNzWfL8rpJot7p35BemD+zzNXoA==
   dependencies:
     "@types/ws" "^7.2.6"
-    http-status-codes "^1.4.0"
+    http-status-codes "^2.1.2"
     hyperid "^2.0.5"
     isomorphic-ws "^4.0.1"
     ws "^7.3.1"
@@ -605,7 +605,7 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.0.2.tgz#5bb52ee68d0f8efa9cc0099920e56be6cc4e37f3"
   integrity sha512-IkVfat549ggtkZUthUzEX49562eGikhSYeVGX97SkMFn+sTZrgRewXjQ4tPKFPCykZHkX1Zfd9OoELGqKU2jJA==
 
-"@types/qs@^6.9.3":
+"@types/qs@^6.9.4":
   version "6.9.4"
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.4.tgz#a59e851c1ba16c0513ea123830dd639a0a15cb6a"
   integrity sha512-+wYo+L6ZF6BMoEjtf8zB2esQsqdV6WsjRK/GP9WOgLPrq87PbNWgIxS76dS5uvl/QXtHGakZmwTznIfcPXcKlQ==
@@ -774,12 +774,12 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
   integrity sha512-3YDiu347mtVtjpyV3u5kVqQLP242c06zwDOgpeRnybmXlYYsLbtTrUBUm8i8srONt+FWobl5aibnU1030PeeuA==
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+axios@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 babel-jest@^26.2.2:
   version "26.2.2"
@@ -1146,13 +1146,6 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -1474,12 +1467,10 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.10.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -1674,10 +1665,10 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-http-status-codes@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/http-status-codes/-/http-status-codes-1.4.0.tgz#6e4c15d16ff3a9e2df03b89f3a55e1aae05fb477"
-  integrity sha512-JrT3ua+WgH8zBD3HEJYbeEgnuQaAnUeRRko/YojPAJjGmIfGD3KPU/asLdsLwKjfxOmQe5nXMQ0pt/7MyapVbQ==
+http-status-codes@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/http-status-codes/-/http-status-codes-2.1.2.tgz#dc5b7ccd72fb383d1d7c21adbbddc3b125f6a5b7"
+  integrity sha512-zpZ1nBcoR0j1FLQ7xbXXBy1z/yUfAi+0a5IZBoZnmOseYkaljdzQ17ZeVXFlK23IbLxMJn6aWI0uU92DQQrG0g==
 
 human-signals@^1.1.1:
   version "1.1.1"
